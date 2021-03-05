@@ -18,11 +18,35 @@
     margin: 0;
     padding: 0;
     background-color: var(--Very-Pale-Blue);
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
 }
+
+/* body {
+    font-family: "Manrope", sans-serif;
+    background-color: var(--Very-Pale-Blue);
+    padding: 10.5rem 0 0 0;
+    background-image: url(/images/pattern-circles.svg),
+      url(./images/bg-pattern.svg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 8rem, center 0rem;
+  } */
+
 
 wrapper {
  text-align: center;
+}
+
+.circle {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    left: 400px;
+    top: -200px;
+    z-index: -5;
+    border: 1px red solid;
 }
 
 .title {
@@ -34,9 +58,10 @@ wrapper {
     color: var(--Grayish-Blue);
     margin-top: 10px;
     margin-bottom: 90px;
-    margin-left: 350px;
     font-size: 1.4rem;
-    max-width: 320px;
     line-height: 2;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
 }
+
