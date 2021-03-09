@@ -30,6 +30,11 @@ wrapper {
  text-align: center;
 }
 
+.top {
+    background-image: url("images/pattern-circles.svg");
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+}
 
 .title {
     color: var(--Dark-Desaturated-Blue);
