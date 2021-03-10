@@ -20,7 +20,6 @@
     font-family: 'Manrope', sans-serif;
 }
 
-
 wrapper {
  text-align: center;
 }
@@ -62,9 +61,8 @@ wrapper {
 }
 
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 100%; 
   }
-
 
 .slider {
     -webkit-appearance: none;
@@ -100,8 +98,6 @@ wrapper {
     cursor: grabbing;
   }
 
-
-
  /* details on slider
  1̶.̶ t̶h̶u̶m̶b̶ t̶h̶i̶n̶g̶ w̶h̶e̶n̶ h̶o̶v̶e̶r̶
  2̶.̶ t̶h̶u̶m̶b̶ g̶r̶i̶p̶ w̶h̶e̶n̶ c̶l̶i̶c̶k̶e̶d̶ o̶n̶
@@ -121,3 +117,33 @@ wrapper {
     color: var(--Grayish-Blue);
     letter-spacing: .1rem;
 }
+
+.billing {
+    width: 100%;
+    height: 2rem;
+    color: var(--Grayish-Blue);
+    margin-top: 3rem;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.monthly {
+    display: inline;
+}
+
+.yearly {
+    display: inline;
+}
+
+.discount {
+    color:var(--Light-Red);
+    padding-left: 1rem;
+}
+
+.mini {
+    display: inline;
+}
+
+/* details for mini slider
+1. css
+2. in between two divs */
