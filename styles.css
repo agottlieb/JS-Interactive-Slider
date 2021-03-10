@@ -17,23 +17,35 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: var(--Very-Pale-Blue);
+    /* background-color: var(--Very-Pale-Blue); */
     font-family: 'Manrope', sans-serif;
 }
-body {
+/* body {
 	background-image: url("images/bg-pattern.svg");
 	background-repeat: no-repeat;
     background-size: 100% 30%;
-}
+} */
 
 wrapper {
  text-align: center;
 }
 
-.top {
+/* .top {
     background-image: url("images/pattern-circles.svg");
 	background-position: 50% 0%;
-	background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    /* top: 3rem; }*/
+
+
+.circle {
+    margin-bottom: 10rem;
+    z-index: -3;
+    position: absolute;
+    top: 2rem;
+    margin-left: -7.5rem;
+    width: 240px;
+    height: 240px;
+
 }
 
 .title {
