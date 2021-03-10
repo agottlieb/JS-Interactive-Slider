@@ -61,6 +61,57 @@ wrapper {
     margin-top: 9rem;
 }
 
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 15px;
+    background: var(--Strong-Cyan);
+    border-radius: 5px;  
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    background: var(--Strong-Cyan);
+    background-image: url('images/icon-slider.svg');
+    box-shadow:0px 20px 40px var(--Strong-Cyan);
+  }
+
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+    cursor: pointer;
+  }
+
+  .slider::-webkit-slider-thumb:active {
+    cursor: grabbing;
+  }
+
+
+
+ /* details on slider
+ 1̶.̶ t̶h̶u̶m̶b̶ t̶h̶i̶n̶g̶ w̶h̶e̶n̶ h̶o̶v̶e̶r̶
+ 2̶.̶ t̶h̶u̶m̶b̶ g̶r̶i̶p̶ w̶h̶e̶n̶ c̶l̶i̶c̶k̶e̶d̶ o̶n̶
+ 3̶.̶ s̶h̶a̶d̶o̶w̶ o̶n̶ c̶i̶r̶c̶l̶e̶
+ 4̶.̶ c̶i̶r̶l̶c̶e̶ i̶t̶s̶e̶l̶f̶
+ 5. disappearing slider when not in use 
+ 6. checks disapear on hover
+ 7. changes color on grip
+ 8.checks on image*/ 
+
 .dollar {
     color: var(--Dark-Desaturated-Blue);
     font-weight: 800;
