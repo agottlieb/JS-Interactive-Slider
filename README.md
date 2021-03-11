@@ -8,6 +8,7 @@ Challenges:
 Known bugs: 
 1.disappearing slider when not in use-- JS issue
 2.slider/box-shadow stay lighter color on grip
+3. mini-slider looks a bit off 
 
 # Frontend Mentor - Interactive pricing component
 

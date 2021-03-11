@@ -66,7 +66,7 @@ wrapper {
 
 .slider {
     -webkit-appearance: none;
-    width: 30%;
+    width: 50%;
     height: 15px;
     background: var(--Strong-Cyan);
     border-radius: 5px;  
@@ -122,21 +122,24 @@ wrapper {
     height: 2rem;
     color: var(--Grayish-Blue);
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .monthly {
-    display: inline;
+    margin-right: 2rem;
 }
 
 .yearly {
-    display: inline;
+    margin-left: 2rem;
 }
-
 .discount {
     color:var(--Light-Red);
     padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .mini {
@@ -146,7 +149,7 @@ wrapper {
     display: inline;
     cursor: pointer;
     outline: none;
-    border-radius: 32%;
+    border-radius: 34%;
     background: var(--Light-Grayish-Blue);
     width:50px;
     padding: .5rem;
