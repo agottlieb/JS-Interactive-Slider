@@ -8,8 +8,8 @@
     --Pale-Blue: hsl(226, 100%, 87%);
     --White: hsl(0, 0%, 100%);
     --Very-Pale-Blue: hsl(230, 100%, 99%);
-    --Light-Grayish-Blue: hsl(224, 65%, 95%);
-    --Light-Grayish-Blue: hsl(223, 50%, 87%);
+    --Light-Grayish-Blue: hsl(233, 69%, 90%);
+    --Light-Grayish-Blue--Two: hsl(223, 50%, 87%);
     --Grayish-Blue: hsl(225, 20%, 60%);
     --Dark-Desaturated-Blue: hsl(227, 35%, 25%);
 }
@@ -88,8 +88,7 @@ wrapper {
     background-image: url('images/icon-slider.svg');
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow:0px 20px 40px var(--Strong-Cyan);
-    
+    box-shadow:0px 20px 40px var(--Strong-Cyan); 
   }
 
   .slider:hover {
@@ -146,23 +145,21 @@ wrapper {
     transition: opacity .2s;
     display: inline;
     cursor: pointer;
-    background: var(--Strong-Cyan);
     outline: none;
-}
-
-.mini:active {
-    border: none !important;
+    border-radius: 32%;
+    background: var(--Light-Grayish-Blue);
+    width:50px;
+    padding: .5rem;
 }
 
 .mini::-webkit-slider-thumb {
-    /* -webkit-appearance: none;
-    appearance: none; */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
     background: white;
 }
-
-.mini::-webkit-slider-thumb:active {
-    border: none !important;;
-  }
 
 /* details for mini slider
 1. css
