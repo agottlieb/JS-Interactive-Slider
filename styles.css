@@ -86,27 +86,27 @@ wrapper {
     border-radius: 50%; 
     background: var(--Strong-Cyan);
     background-image: url('images/icon-slider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow:0px 20px 40px var(--Strong-Cyan);
+    
   }
 
   .slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
     cursor: pointer;
+    
   }
 
   .slider::-webkit-slider-thumb:active {
     cursor: grabbing;
+    filter: brightness(85%);
+    background: var(--Strong-Cyan);
   }
 
- /* details on slider
- 1̶.̶ t̶h̶u̶m̶b̶ t̶h̶i̶n̶g̶ w̶h̶e̶n̶ h̶o̶v̶e̶r̶
- 2̶.̶ t̶h̶u̶m̶b̶ g̶r̶i̶p̶ w̶h̶e̶n̶ c̶l̶i̶c̶k̶e̶d̶ o̶n̶
- 3̶.̶ s̶h̶a̶d̶o̶w̶ o̶n̶ c̶i̶r̶c̶l̶e̶
- 4̶.̶ c̶i̶r̶l̶c̶e̶ i̶t̶s̶e̶l̶f̶
- 5. disappearing slider when not in use 
- 6. checks disapear on hover
- 7. changes color on grip
- 8.checks on image*/ 
+  .slider:active {
+    background: var(--Strong-Cyan);
+  }
 
 .dollar {
     color: var(--Dark-Desaturated-Blue);
@@ -141,9 +141,30 @@ wrapper {
 }
 
 .mini {
+    -webkit-appearance: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
     display: inline;
+    cursor: pointer;
+    background: var(--Strong-Cyan);
+    outline: none;
 }
+
+.mini:active {
+    border: none !important;
+}
+
+.mini::-webkit-slider-thumb {
+    /* -webkit-appearance: none;
+    appearance: none; */
+    background: white;
+}
+
+.mini::-webkit-slider-thumb:active {
+    border: none !important;;
+  }
 
 /* details for mini slider
 1. css
-2. in between two divs */
+2. in between two divs
+3.b̶o̶r̶d̶e̶r̶ o̶n̶ c̶l̶i̶c̶k̶ */

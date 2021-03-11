@@ -1,5 +1,13 @@
+New things I learned/looked up:
 first slider- template from w3 schools
 grabbing cursor
+CSS/filter brightness to make an existing color darker
+
+Challenges: 
+
+Known bugs: 
+1.disappearing slider when not in use-- JS issue
+2.slider/box-shadow stay lighter color on grip
 
 # Frontend Mentor - Interactive pricing component
 
