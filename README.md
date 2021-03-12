@@ -9,6 +9,7 @@ Known bugs:
 1.disappearing slider when not in use-- JS issue
 2.slider/box-shadow stay lighter color on grip
 3. mini-slider looks a bit off 
+4. check marks further away from the list items 
 
 # Frontend Mentor - Interactive pricing component
 

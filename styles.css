@@ -164,7 +164,24 @@ wrapper {
     background: white;
 }
 
-/* details for mini slider
-1. css
-2. in between two divs
-3.b̶o̶r̶d̶e̶r̶ o̶n̶ c̶l̶i̶c̶k̶ */
+.list ul {
+    color: var(--Grayish-Blue);
+    list-style-image: url('images/icon-check.svg');
+    list-style-position: inside;
+    text-align: center;
+    justify-content: center;
+    padding-inline-start: 0rem;
+}
+
+.list li  {
+    padding: 0.8rem;
+}
+
+button {
+    margin: 4rem;
+    display:block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
