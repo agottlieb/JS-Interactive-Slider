@@ -149,7 +149,7 @@ wrapper {
     display: inline;
     cursor: pointer;
     outline: none;
-    border-radius: 34%;
+    border-radius: 3rem;
     background: var(--Light-Grayish-Blue);
     width:50px;
     padding: .5rem;
@@ -171,17 +171,23 @@ wrapper {
     text-align: center;
     justify-content: center;
     padding-inline-start: 0rem;
+    margin-bottom: 2rem;
 }
 
 .list li  {
     padding: 0.8rem;
 }
 
-button {
-    margin: 4rem;
-    display:block;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 1px solid red;
+.btn {
+    display: block;
+    border-radius: 4rem;
+    background: var(--Dark-Desaturated-Blue);
+    color: var(--Pale-Blue);
+    margin: auto;
+    min-height: 3rem;
+    max-width: 15rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 1.3rem;
+    padding-bottom: -.2rem;
 }
