@@ -192,6 +192,10 @@ wrapper {
     padding-bottom: -.2rem;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .attribution {
     margin-top: 4rem;
     text-align: center;

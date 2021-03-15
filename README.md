@@ -8,8 +8,9 @@ Challenges:
 Known bugs: 
 1.disappearing slider when not in use-- JS issue
 2.slider/box-shadow stay lighter color on grip
-3. mini-slider looks a bit off 
+3̶.̶ m̶i̶n̶i̶-̶s̶l̶i̶d̶e̶r̶ l̶o̶o̶k̶s̶ a̶ b̶i̶t̶ o̶f̶f̶ 
 4. check marks further away from the list items 
+5. pictures when hover and when grabbing 
 
 # Frontend Mentor - Interactive pricing component
 
