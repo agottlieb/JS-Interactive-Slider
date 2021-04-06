@@ -32,15 +32,20 @@
 
       <div class="active">
         <div class="slidecontainer">
-          <div class="pageviews"> <span id="pviews">100K</span> Pageviews</div>
-          <input type="range" min="10K" max="1M" value="100K" class="slider" id="myRange" aria-label="slider for pricing"> 
+          <div class="pageviews"> <span id="pageviews">100K</span> Pageviews</div>
+          <input type="range"
+          class="slider" 
+          id="slider" 
+          aria-label="slider for pricing" 
+          value="0" > 
         </div>
-        <div class="cost"> <span class="dollar">$</span> / month</div>
+        <div class="cost"> 
+          <span class="dollar" id ="month-cost">$16</span> / month</div>
         
         <div class="billing">
           <div class="monthly">Monthly Billing</div>
           <div class="minislider">
-            <input type="range" min="1" max="2" value="1" class="mini" id="myRange2" aria-label="slider for 25% discount for yearly membership">
+            <input type="range" min="1" max="2" value="1" class="mini" id="toggle" aria-label="slider for 25% discount for yearly membership">
           </div>
           <div class="yearly">
             Yearly Billing <span class="discount">-25%</span>

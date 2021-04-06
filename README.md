@@ -1,14 +1,14 @@
 New things I learned/looked up:
+
 first slider- template from w3 schools
-grabbing cursor
-CSS/filter brightness to make an existing color darker
+cursor: grabbing
+CSS/filter brightness to make an existing color darker on an event (filter:)
 
 Challenges: 
 
 Known bugs: 
 1.disappearing slider when not in use-- JS issue
 2.slider/box-shadow stay lighter color on grip
-3̶.̶ m̶i̶n̶i̶-̶s̶l̶i̶d̶e̶r̶ l̶o̶o̶k̶s̶ a̶ b̶i̶t̶ o̶f̶f̶ 
 4. check marks further away from the list items 
 5. pictures when hover and when grabbing 
 
