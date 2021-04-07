@@ -128,19 +128,12 @@ wrapper {
     justify-content: center;
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 6rem;
-    height: 2.8rem;
-  }
-
 .monthly {
     margin-right: 2rem;
 }
 
 .yearly {
-    display: flex;
+    margin-left: 2rem;
 }
 
 .discount {
@@ -150,7 +143,7 @@ wrapper {
     font-weight: 700;
 }
 
-.mini-slider {
+.mini {
     -webkit-appearance: none;
     -webkit-transition: .2s;
     transition: opacity .2s;
@@ -163,7 +156,7 @@ wrapper {
     padding: .5rem;
 }
 
-.mini-slider::-webkit-slider-thumb {
+.mini::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 20px;

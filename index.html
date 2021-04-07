@@ -46,10 +46,9 @@
         <div class="cost"> 
           <span class="dollar" id ="month-cost">$16.00</span> / month</div>
         
-        <div class="billing">
+        <!-- <div class="billing">
           <div class="monthly">
             <p>Monthly Billing</p>
-            <label class="switch">
               <input type="range"
               min= "0"
               max = "1"
@@ -57,12 +56,29 @@
               aria-label="slider for 25% discount for yearly membership"
               id="toggle"
               class="mini-slider"/> 
-            </label>
           </div>
+
           <div class="yearly">
             <p>Yearly Billing </p> 
             <span class="discount">-25%</span>
           </div>
+        </div>
+
+      </div> -->
+      <div class="billing">
+        <div class="monthly">
+          <p>Monthly Billing</p>
+        </div>
+          <input 
+          type="range" 
+          min="0" 
+          max="1" 
+          value="0" 
+          class="mini" 
+          id="toggle" 
+          aria-label="slider for 25% discount for yearly membership"/>
+        <div class="yearly">
+          Yearly Billing <span class="discount">-25%</span>
         </div>
       </div>
 
