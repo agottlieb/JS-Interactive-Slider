@@ -7,10 +7,9 @@ CSS/filter brightness to make an existing color darker on an event (filter:)
 Challenges: 
 
 Known bugs: 
-1̶.̶d̶i̶s̶a̶p̶p̶e̶a̶r̶i̶n̶g̶ s̶l̶i̶d̶e̶r̶ w̶h̶e̶n̶ n̶o̶t̶ i̶n̶ u̶s̶e̶-̶
 2.slider/box-shadow stay lighter color on grip
 4. check marks further away from the list items 
-5. pictures when hover and when grabbing
+5. picture change when hover and when grabbing
 6. on-start issues 
 
 # Frontend Mentor - Interactive pricing component
