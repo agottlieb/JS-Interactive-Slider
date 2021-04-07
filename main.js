@@ -1,4 +1,4 @@
-//Goals for JS to accomplish
+//Goals for JS 
 //1. update pageviews and cost per month based on position in slider
 //2. apply 25% discount to cost when mini-slider is activated
 
@@ -7,7 +7,7 @@ const views = document.getElementById("pageviews");
 const toggle = document.getElementById("toggle");
 const cost = document.getElementById("month-cost");
 
-//"input" as the first argument refers to listening for events related to HMTL elements
+//"input" as the first argument refers to listening for events related to HMTL elements (i.e. the slider)
 slider.addEventListener("input", (e) => {
   const max = 4;
   const targetValue = e.target.value;
@@ -19,9 +19,6 @@ slider.addEventListener("input", (e) => {
     var(--Light-Grayish-Blue) ${targetPerc}%)`;
 
   updatePrice(targetValue);
-  
-  //specify false--no discount yet--for a starting condition
-  toggle.checked = false;
 
 })
 
@@ -44,4 +41,18 @@ function updatePrice (targetValue) {
   }
 }
 
-//adjusts for discount 
+//adjusts for discount
+toggle.addEventListener("click", discountPrice) 
+
+function discountPrice (value) {
+  if (value=="1") {
+    cost.innerHTML =.75(12*cost)}
+  else {
+    cost.innerHTML=cost
+  }
+} 
+
+
+
+
+
