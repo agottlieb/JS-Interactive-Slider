@@ -41,23 +41,27 @@
           min = "0"
           max ="4" 
           step = "1"
-          value="0" > 
+          value="2" > 
         </div>
         <div class="cost"> 
-          <span class="dollar" id ="month-cost">$16</span> / month</div>
+          <span class="dollar" id ="month-cost">$16.00</span> / month</div>
         
         <div class="billing">
-          <div class="monthly">Monthly Billing</div>
-          <div class="minislider">
-            <input type="range" 
-            min="0" 
-            max="1" value="1" 
-            class="mini" 
-            id="toggle" 
-            aria-label="slider for 25% discount for yearly membership">
+          <div class="monthly">
+            <p>Monthly Billing</p>
+            <label class="switch">
+              <input type="range"
+              min= "0"
+              max = "1"
+              value = "0"
+              aria-label="slider for 25% discount for yearly membership"
+              id="toggle"
+              class="mini-slider"/> 
+            </label>
           </div>
           <div class="yearly">
-            Yearly Billing <span class="discount">-25%</span>
+            <p>Yearly Billing </p> 
+            <span class="discount">-25%</span>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@ Known bugs:
 4. check marks further away from the list items 
 5. picture change when hover and when grabbing
 6. on-start issues 
+7. completely re-work toggle box and code 
 
 # Frontend Mentor - Interactive pricing component
 
