@@ -46,7 +46,7 @@ toggle.addEventListener("click", discountPrice)
 
 function discountPrice (value) {
   if (value=="1") {
-    cost.innerHTML =.75(12*cost)}
+    cost.innerHTML =.75*cost}
   else {
     cost.innerHTML=cost.innerHTML
   }
