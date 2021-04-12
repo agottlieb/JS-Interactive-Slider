@@ -48,7 +48,7 @@ function discountPrice (value) {
   if (value=="1") {
     cost.innerHTML =.75(12*cost)}
   else {
-    cost.innerHTML=cost
+    cost.innerHTML=cost.innerHTML
   }
 } 
 
