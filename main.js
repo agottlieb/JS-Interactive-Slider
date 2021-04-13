@@ -45,13 +45,28 @@ function updatePrice (targetValue) {
 toggle.addEventListener("click", discountPrice) 
 
 function discountPrice (value) {
-  if (value=="1") {
+ 
+  if (toggle.value=="1") {
     cost.innerHTML =.75*cost}
   else {
     cost.innerHTML=cost.innerHTML
   }
 } 
 
+// toggle.addEventListener("input", (e) => {
+//   const target = e.target.value;
+//   const
+
+//   discountPricey(target)
+// })
+
+// function discountPricey(target) {
+//   if (target==="1") {
+//     cost.innerHTML =.75*cost}
+//   else {
+//     cost.innerHTML=cost.innerHTML
+//   }
+// }
 
 
 
