@@ -8,11 +8,14 @@ JS- needed to make linear gradient, use simple math but had to assign a value wi
 Challenges: 
 
 Known bugs: 
-2. slider/box-shadow stay lighter color on grip
+2. box-shadow stay lighter color on grip, picture disappears on hover, and stays on grab
 4. check marks further away from the list items 
 5. picture change when hover and when grabbing
-6. on-start issues 
-7. completely re-work toggle box and code 
+6. on-start issues shows entire toggle
+7. get mini-slider to toggle back
+8. convert to desktop
+9. on-color when hovering on mini-slider
+10. cursors??
 
 # Frontend Mentor - Interactive pricing component
 

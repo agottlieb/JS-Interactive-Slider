@@ -165,6 +165,7 @@ wrapper {
     background: white;
 }
 
+
 .list ul {
     color: var(--Grayish-Blue);
     list-style-image: url('images/icon-check.svg');
@@ -178,6 +179,7 @@ wrapper {
 .list li  {
     padding: .8rem;
 }
+
 
 .btn {
     display: block;
