@@ -6,6 +6,7 @@ const slider = document.getElementById("slider");
 const views = document.getElementById("pageviews");
 const toggle = document.getElementById("toggle");
 const cost = document.getElementById("month-cost");
+let costValue = 0;
 
 //"input" as the first argument refers to listening for events related to HMTL elements (i.e. the slider)
 slider.addEventListener("input", (e) => {
@@ -26,18 +27,23 @@ function updatePrice (targetValue) {
   if (targetValue === "0") {
     views.innerHTML = `10K`
     cost.innerHTML = `$8.00`
+    costValue=8
   } else if (targetValue==="1") {
     views.innerHTML = `50K`
     cost.innerHTML = `$12.00`
+    costValue=12
   }else if (targetValue==="2") {
     views.innerHTML = `100K`
     cost.innerHTML = `$16.00`
+    costValue=16
   }else if (targetValue==="3") {
     views.innerHTML = `500K`
     cost.innerHTML = `$24.00`
+    costValue=24
   } else {
     views.innerHTML = `1M`
     cost.innerHTML = `$36.00`
+    costValue=36
   }
 }
 
@@ -45,32 +51,13 @@ function updatePrice (targetValue) {
 toggle.addEventListener("click", discountPrice) 
 
 function discountPrice () {
- let costValue = 0;
-costValue = parseInt(cost.innerHTML); 
-
   if (toggle.value=="1") {
-    cost.innerHTML =.75*costValue}
-  else {
-    cost.innerHTML=cost.innerHTML
-  }
+    cost.innerHTML = `$${.75 * costValue}.00`
+  } 
 } 
 
 
 
-// toggle.addEventListener("input", (e) => {
-//   const target = e.target.value;
-//   const
-
-//   discountPricey(target)
-// })
-
-// function discountPricey(target) {
-//   if (target==="1") {
-//     cost.innerHTML =.75*cost}
-//   else {
-//     cost.innerHTML=cost.innerHTML
-//   }
-// }
 
 
 

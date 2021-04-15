@@ -3,6 +3,7 @@ New things I learned/looked up:
 first slider- template from w3 schools
 cursor: grabbing
 CSS/filter brightness to make an existing color darker on an event (filter:)
+JS- needed to make linear gradient, use simple math but had to assign a value within a different function in order to multiply like items 
 
 Challenges: 
 
