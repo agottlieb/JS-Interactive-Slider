@@ -56,6 +56,22 @@ function discountPrice () {
   } 
 } 
 
+// const discount = false; 
+
+// function discountPrice () {
+//   if (discount === false)
+//   {
+//     discount = true;
+//     cost.innerHTML = `$${.75 * costValue}.00`
+    
+//  } else {
+//     discount = false;
+//     cost.innerHTML == cost.innerHTML
+//  }
+// }
+
+
+
 
 
 
