@@ -51,10 +51,12 @@ function updatePrice (targetValue) {
 toggle.addEventListener("click", discountPrice) 
 
 function discountPrice () {
-  if (toggle.value=="1") {
-    cost.innerHTML = `$${.75 * costValue}.00`
-  } 
-} 
+    if (toggle.value=="1") {
+      cost.innerHTML = `$${.75 * costValue}.00`
+    } else if (toggle.value=="0") {
+      cost.innerHTML = `$${costValue}.00`
+    }
+  }
 
 // const discount = false; 
 
