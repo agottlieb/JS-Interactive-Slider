@@ -94,12 +94,16 @@ wrapper {
   .slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
     cursor: pointer;
+    background-image: none;
   }
 
   .slider::-webkit-slider-thumb:active {
     cursor: grabbing;
     filter: brightness(85%);
     background: var(--Strong-Cyan);
+    background-image: url('images/icon-slider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .slider:active {
