@@ -94,7 +94,6 @@ wrapper {
   .slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
     cursor: pointer;
-    
   }
 
   .slider::-webkit-slider-thumb:active {
@@ -154,6 +153,10 @@ wrapper {
     background: var(--Light-Grayish-Blue);
     width:50px;
     padding: .5rem;
+}
+
+.mini:hover {
+    background: var(--Soft-Cyan)
 }
 
 .mini::-webkit-slider-thumb {
