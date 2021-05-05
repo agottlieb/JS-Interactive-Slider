@@ -12,7 +12,6 @@ Known bugs:
 4. check marks further away from the list items 
 5. picture change when hover and when grabbing
 6. on-start issues shows entire toggle
-7. get mini-slider to toggle back
 8. convert to desktop
 9. on-color when hovering on mini-slider
 10. cursors??

@@ -68,7 +68,7 @@ wrapper {
     -webkit-appearance: none;
     width: 50%;
     height: 15px;
-    background: var(--Strong-Cyan);
+    background: linear-gradient( to right, var(--Soft-Cyan) 0 50%, var(--Light-Grayish-Blue) 0 100% );
     border-radius: 5px;  
     outline: none;
     opacity: 0.7;
