@@ -187,6 +187,10 @@ wrapper {
     padding: .8rem;
 }
 
+.list li span {
+    position: relative;
+    left: 12px;
+    }
 
 .btn {
     display: block;
