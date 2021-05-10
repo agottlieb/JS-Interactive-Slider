@@ -68,7 +68,7 @@ wrapper {
     -webkit-appearance: none;
     width: 50%;
     height: 15px;
-    background: linear-gradient( to right, var(--Soft-Cyan) 0 50%, var(--Light-Grayish-Blue) 0 100% );
+    background: var(--Strong-Cyan);
     border-radius: 5px;  
     outline: none;
     opacity: 0.7;
@@ -94,16 +94,13 @@ wrapper {
   .slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
     cursor: pointer;
-    background-image: none;
+    
   }
 
   .slider::-webkit-slider-thumb:active {
     cursor: grabbing;
     filter: brightness(85%);
     background: var(--Strong-Cyan);
-    background-image: url('images/icon-slider.svg');
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   .slider:active {
@@ -146,6 +143,10 @@ wrapper {
     font-weight: 700;
 }
 
+.dis {
+    display:none;
+}
+
 .mini {
     -webkit-appearance: none;
     -webkit-transition: .2s;
@@ -157,10 +158,6 @@ wrapper {
     background: var(--Light-Grayish-Blue);
     width:50px;
     padding: .5rem;
-}
-
-.mini:hover {
-    background: var(--Soft-Cyan)
 }
 
 .mini::-webkit-slider-thumb {
@@ -187,10 +184,6 @@ wrapper {
     padding: .8rem;
 }
 
-.list li span {
-    position: relative;
-    left: 12px;
-    }
 
 .btn {
     display: block;
@@ -214,4 +207,44 @@ wrapper {
     margin-top: 4rem;
     text-align: center;
     color: var(--Dark-Desaturated-Blue);
+}
+
+@media (min-width: 720px) {
+   .sign-up {
+    width: 600px;
+    font-size: 1rem;
+    }
+    
+    .slidecontainer {
+        /* display: flex;
+        width: 100%;
+        margin: auto; */
+    }
+    .pageviews {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        left: 16rem;
+
+    }
+    .cost {
+        position: relative;
+        width: 350px; 
+        left: 30rem;
+        bottom: 10rem;
+    }
+
+    .dollar {
+        font-size: 2.5rem;
+    }
+
+    .month {
+        position: relative;
+        bottom: .7rem;
+    }
+
+    .dis {
+        display: block;
+    }
+
 }
