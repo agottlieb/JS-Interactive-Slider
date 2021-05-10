@@ -9,7 +9,7 @@ Challenges:
 
 Known bugs: 
 2.  picture disappears on hover,̶ a̶n̶d̶ s̶t̶a̶y̶s̶ o̶n̶ g̶r̶a̶b̶
-4. check marks further away from the list items 
+4̶.̶ c̶h̶e̶c̶k̶ m̶a̶r̶k̶s̶ f̶u̶r̶t̶h̶e̶r̶ a̶w̶a̶y̶ f̶r̶o̶m̶ t̶h̶e̶ l̶i̶s̶t̶ i̶t̶e̶m̶s̶ 
 6̶.̶ o̶n̶-̶s̶t̶a̶r̶t̶ i̶s̶s̶u̶e̶s̶ s̶h̶o̶w̶s̶ e̶n̶t̶i̶r̶e̶ t̶o̶g̶g̶l̶e̶
 8. convert to desktop
 9̶.̶ o̶n̶-̶c̶o̶l̶o̶r̶ w̶h̶e̶n̶ h̶o̶v̶e̶r̶i̶n̶g̶ o̶n̶ m̶i̶n̶i̶-̶s̶l̶i̶d̶e̶r̶
