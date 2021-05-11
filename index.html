@@ -1,83 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <wrapper>
-      <div class="top">
-        <h1 class="title">Simple, traffic-based pricing</h1>
-        <p class="sign-up">
-          Sign-up for our 30-day trial. No credit card required.
-        </p>
-        <img
-          src="images/pattern-circles.svg"
-          alt="circles in background"
-          class="circle"
-        />
-      </div>
+  <title>Frontend Mentor | Interactive pricing component</title>
 
-      <div class="active">
-        <div class="slidecontainer">
-          <div class="pageviews"> <span id="pageviews" class ="number">100K </span> Pageviews</div>
-          <input 
-          type="range"
-          class="slider" 
-          id="slider" 
-          aria-label="slider for pricing"
-          min = "0"
-          max ="4" 
-          step = "1"
-          value="2" > 
-        <div class="cost"> 
-          <span class="dollar" id ="month-cost">$16.00</span> <span class ="month">/month </span></div>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <wrapper>
+    <div class="top">
+      <h1 class="title">Simple, traffic-based pricing</h1>
+      <p class="sign-up">
+        Sign-up for our 30-day trial. No credit card required.
+      </p>
+      <img src="images/pattern-circles.svg" alt="circles in background" class="circle" />
+    </div>
+
+    <div class="active">
+      <div class="slidecontainer">
+        <div class="pageviews"> <span id="pageviews" class="number">100K </span> Pageviews</div>
+        <input type="range" class="slider" id="slider" aria-label="slider for pricing" min="0" max="4" step="1"
+          value="2">
+        <div class="cost">
+          <span class="dollar" id="month-cost">$16.00</span> <span class="month">/month </span>
         </div>
+      </div>
       <div class="billing">
         <div class="monthly">
           <p>Monthly Billing</p>
         </div>
-          <input 
-          type="range" 
-          min="0" 
-          max="1"  
-          value="0" 
-          class="mini" 
-          id="toggle" 
-          aria-label="slider for 25% discount for yearly membership"/>
-         <div class="yearly">
-          Yearly Billing <span class="discount">-25% <span class="dis"> discount</span></span> 
+        <input type="range" min="0" max="1" value="0" class="mini" id="toggle"
+          aria-label="slider for 25% discount for yearly membership" />
+        <div class="yearly">
+          Yearly Billing <span class="discount">-25% <span class="dis"> discount</span></span>
         </div>
       </div>
 
-      <div class="list">
-        <ul class ="extra"> 
-          <li>Unlimited websites</li>
-          <li> 100% data ownership</li>
-          <li>Email reports</li>
-        </ul>
+      <div class = "bottom">
+        <div class="list">
+          <ul class="extra">
+            <li>Unlimited websites</li>
+            <li> 100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+        </div>
+        <buttton class="btn" aria-label="start trial button">Start my trial </buttton>
       </div>
+  </wrapper>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge"
+      target="https://github.com/agottlieb/Interactive-slider">Frontend Mentor</a>. Coded by <a href="#">Allison G</a>.
+  </div>
+</body>
+<script src="main.js"></script>
 
-      <buttton class= "btn" aria-label="start trial button">Start my trial </buttton>
-    </wrapper>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="https://github.com/agottlieb/Interactive-slider"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Allison G</a>.
-    </div>
-  </body>
-  <script src="main.js"></script>
 </html>

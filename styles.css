@@ -257,7 +257,6 @@ wrapper {
         align-items: center;
         width: 100vh;
         right: -200px;
-        
     }
 
     .yearly {
@@ -267,13 +266,41 @@ wrapper {
     .mini {
         size: .2rem;
         width:40px;
-
     }
 
     .discount {
         display: flex;
         font-size: .8rem;
         white-space: nowrap;
+    }
+
+    .bottom {
+        display: flex;
+    }
+
+    .list {
+        position: relative;
+        font-size: .8rem;
+        left: 250px;
+    }
+    .list ul {
+        display: inline-block;
+    }
+    
+    .list li {
+        text-align: left;
+        line-height: .5rem;
+    }
+
+    .btn {
+        font-size: .8rem;
+        min-height: .2rem;
+        min-width: 13rem;
+        text-align: center;
+        vertical-align: middle;
+        padding-bottom: 1rem;
+        position: relative;
+        right: -50px;
     }
 
 }
