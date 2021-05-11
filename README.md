@@ -15,7 +15,7 @@ Known bugs:
 9̶.̶ o̶n̶-̶c̶o̶l̶o̶r̶ w̶h̶e̶n̶ h̶o̶v̶e̶r̶i̶n̶g̶ o̶n̶ m̶i̶n̶i̶-̶s̶l̶i̶d̶e̶r̶
 1̶0̶.̶ c̶u̶r̶s̶o̶r̶s̶?̶?̶
 11. $0 if activate straight away
-12. Space between 100 and K
+1̶2̶.̶ S̶p̶a̶c̶e̶ b̶e̶t̶w̶e̶e̶n̶ 1̶0̶0̶ a̶n̶d̶ K̶
 
 # Frontend Mentor - Interactive pricing component
 
