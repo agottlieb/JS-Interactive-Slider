@@ -13,6 +13,6 @@ New things I learned doing this project:
 
 Known bugs: 
 
-11. $0 if activate straight away
-
+1̶1̶.̶ $̶0̶ i̶f̶ a̶c̶t̶i̶v̶a̶t̶e̶ s̶t̶r̶a̶i̶g̶h̶t̶ a̶w̶a̶y̶
+12. defaults to full price even if toggle on
 
