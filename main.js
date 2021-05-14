@@ -6,7 +6,7 @@ const slider = document.getElementById("slider");
 const views = document.getElementById("pageviews");
 const toggle = document.getElementById("toggle");
 const cost = document.getElementById("month-cost");
-let costValue = 16;
+let costValue = 0;
 
 //"input" as the first argument refers to listening for events related to HMTL elements (i.e. the slider)
 slider.addEventListener("input", (e) => {
@@ -22,6 +22,9 @@ slider.addEventListener("input", (e) => {
   updatePrice(targetValue);
 
 })
+
+slider.addEventListener("input", discountPrice
+)
 
 function updatePrice (targetValue) {
   if (targetValue === "0") {
