@@ -225,13 +225,13 @@ wrapper {
         display: flex;
         justify-content: flex-start;
         position: relative;
-        left: 16rem;
+        left: 25rem;
 
     }
     .cost {
         position: relative;
         width: 350px; 
-        left: 30rem;
+        left: 55rem;
         bottom: 10rem;
     }
 
@@ -256,7 +256,7 @@ wrapper {
         position: relative;
         align-items: center;
         width: 100vh;
-        right: -200px;
+        right: -400px;
     }
 
     .yearly {
@@ -276,6 +276,7 @@ wrapper {
 
     .bottom {
         display: flex;
+        padding-left: 14rem;
     }
 
     .list {
