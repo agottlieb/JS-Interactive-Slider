@@ -214,59 +214,119 @@ wrapper {
     color: var(--Dark-Desaturated-Blue);
 }
 
-@media (min-width: 720px) {
-   .sign-up {
-    width: 600px;
-    font-size: 1rem;
-    }
+@media (min-width:600px) {
+    .sign-up {
+        width: 600px;
+        font-size: 1rem;
+        }
+    
+        .pageviews {
+            width: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 10rem;
+    
+        }
+        .cost {
+            position: relative;
+            width: 350px; 
+            left: 30rem;
+            bottom: 10rem;
+        }
+    
+        .dollar {
+            font-size: 2.5rem;
+        }
+    
+        .month {
+            position: relative;
+            bottom: .7rem;
+        }
+    
+        .dis {
+            display: block;
+            padding-left: .2rem;
+        }
+    
+        .billing {
+            display: flex;
+            font-size: .9rem;
+            margin-top: -45px;
+            position: relative;
+            align-items: center;
+            width: 100vh;
+            right: -70px;
+        }
+    
+        .yearly {
+            display: flex;
+        }
+    
+        .mini {
+            size: .2rem;
+            width:40px;
+        }
+    
+        .discount {
+            display: flex;
+            font-size: .8rem;
+            white-space: nowrap;
+        }
+    
+        .bottom {
+            display: flex;
+            padding-left: 14rem;
+        }
+    
+        .list {
+            position: relative;
+            font-size: .8rem;
+            left: 1px;
+        }
+        .list ul {
+            display: inline-block;
+        }
+        
+        .list li {
+            text-align: left;
+            line-height: .5rem;
+        }
+    
+        .btn {
+            font-size: .8rem;
+            min-height: .2rem;
+            min-width: 13rem;
+            text-align: center;
+            vertical-align: middle;
+            padding-bottom: 1rem;
+            position: relative;
+            right: 10px;
+        }
+
+}
+
+@media (min-width: 1200px) {
 
     .pageviews {
-        width: 100vh;
-        display: flex;
-        justify-content: flex-start;
-        position: relative;
         left: 25rem;
 
     }
     .cost {
-        position: relative;
-        width: 350px; 
         left: 55rem;
-        bottom: 10rem;
     }
 
-    .dollar {
-        font-size: 2.5rem;
-    }
 
     .month {
         position: relative;
         bottom: .7rem;
     }
 
-    .dis {
-        display: block;
-        padding-left: .2rem;
-    }
 
     .billing {
-        display: flex;
-        font-size: .9rem;
-        margin-top: -45px;
-        position: relative;
-        align-items: center;
-        width: 100vh;
         right: -400px;
     }
 
-    .yearly {
-        display: flex;
-    }
-
-    .mini {
-        size: .2rem;
-        width:40px;
-    }
 
     .discount {
         display: flex;
@@ -274,33 +334,11 @@ wrapper {
         white-space: nowrap;
     }
 
-    .bottom {
-        display: flex;
-        padding-left: 14rem;
-    }
-
     .list {
-        position: relative;
-        font-size: .8rem;
         left: 250px;
-    }
-    .list ul {
-        display: inline-block;
-    }
-    
-    .list li {
-        text-align: left;
-        line-height: .5rem;
     }
 
     .btn {
-        font-size: .8rem;
-        min-height: .2rem;
-        min-width: 13rem;
-        text-align: center;
-        vertical-align: middle;
-        padding-bottom: 1rem;
-        position: relative;
         right: -50px;
     }
 
