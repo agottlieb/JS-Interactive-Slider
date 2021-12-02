@@ -256,8 +256,7 @@ wrapper {
             position: relative;
             align-items: center;
             width: 100vh;
-            left: 30rem;
-            right: 30rem;
+            left: 25rem;
         }
     
         .yearly {
