@@ -214,7 +214,7 @@ wrapper {
     color: var(--Dark-Desaturated-Blue);
 }
 
-@media (min-width:600px) {
+@media (min-width:800px) {
     .sign-up {
         width: 600px;
         font-size: 1rem;
@@ -225,13 +225,13 @@ wrapper {
             display: flex;
             justify-content: flex-start;
             position: relative;
-            left: 10rem;
+            left: 20rem;
     
         }
         .cost {
             position: relative;
             width: 350px; 
-            left: 30rem;
+            left: 43rem;
             bottom: 10rem;
         }
     
@@ -256,7 +256,8 @@ wrapper {
             position: relative;
             align-items: center;
             width: 100vh;
-            right: -70px;
+            left: 30rem;
+            right: 30rem;
         }
     
         .yearly {
@@ -282,7 +283,7 @@ wrapper {
         .list {
             position: relative;
             font-size: .8rem;
-            left: 1px;
+            left: 4rem;
         }
         .list ul {
             display: inline-block;
@@ -324,7 +325,7 @@ wrapper {
 
 
     .billing {
-        right: -400px;
+        left: 25rem;
     }
 
 
